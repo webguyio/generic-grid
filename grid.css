@@ -2,7 +2,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 body{font-family:georgia,serif;font-size:16px;color:#777;line-height:normal;padding:5%;word-wrap:break-word;background:#fff}
 
-h1, h2, h3, h4, h5, h6{font-family:helvetica,arial,sans-serif;font-weight:bold;margin:30px 0 5px}
+h1, h2, h3, h4, h5, h6{font-family:helvetica,arial,sans-serif;font-weight:bold;margin-bottom:30px}
+h2, h3, h4, h5, h6{margin-top:40px}
 h1{font-size:35px}
 h2{font-size:30px}
 h3{font-size:25px}
@@ -17,21 +18,21 @@ em{font-style:italic}
 pre{overflow-x:auto;white-space:pre-wrap}
 code{font-family:'courier new',courier,serif}
 hr{height:1px;border:none;margin:30px 0;background:#ccc}
-blockquote{padding:15px;border-left:4px solid #ccc;margin:20px 0}
+blockquote{padding:15px;border-left:4px solid #ccc;margin:30px 0}
 blockquote p:first-of-type{margin-top:0}
-ul, ol{font-family:helvetica,arial,sans-serif;text-indent:-10px;margin:20px 0 20px 40px}
+ul, ol{font-family:helvetica,arial,sans-serif;text-indent:-20px;margin:30px 0 30px 40px}
 ol{list-style:decimal inside;text-indent:-17px}
-ul li:before{content:"- "}
-li{margin:5px 0}
+ul li:before{content:"— "}
+li{margin:10px 0}
 input, textarea{padding:10px;border:0 none;outline:0 none;margin-top:10px;background:#f6f6f6}
 input[type="submit"]{cursor:pointer}
 a img, input[type="image"]{border:0 none}
 img, video, table, select, textarea{max-width:100% !important;height:auto}
-table{width:100%}
+table{width:100%;margin:30px 0}
 
-.button, button, input[type="submit"]{display:inline-block;font-family:georgia,serif;font-size:18px;color:#fff;text-decoration:none;padding:10px;border:0;background:#09f;opacity:0.9}
-.button:hover, button:hover, input[type="submit"]:hover{opacity:1}
-.note{display:block;font-size:14px;padding:20px;margin:20px 0}
+.button, button, input[type="submit"]{display:inline-block;font-family:georgia,serif;font-size:18px;color:#fff;text-decoration:none;padding:10px 15px;border:0;background:#09f;opacity:0.9}
+.button:hover, button:hover, input[type="submit"]:hover{cursor:pointer;opacity:1}
+.note{display:block;font-size:14px;padding:20px;margin:30px 0}
 
 .blue, .blue *, .blue-dark, .blue-dark *, .green, .green *, .green-dark, .green-dark *, .orange, .orange *, .purple, .purple *, .red, .red *, .black, .black *{color:#fff}
 .white, .white *, .yellow, .yellow *{color:#000}

@@ -12,8 +12,6 @@
 <link rel="canonical" href="http://<?php echo $_SERVER["HTTP_HOST"]; ?><?php echo parse_url( $_SERVER['REQUEST_URI'], PHP_URL_PATH ); ?>" />
 <link rel="stylesheet" type="text/css" href="grid.css" />
 
-<style>*{margin-bottom:5px !important}</style>
-
 </head>
 
 <body id="home">
