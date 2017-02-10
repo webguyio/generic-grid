@@ -58,7 +58,7 @@
 <pre><code>&lt;strong&gt;This is bold text&lt;/strong&gt;</code></pre>
 
 <p><em>This is italic text</em>.</p>
-<pre><code>&lt;em&gt;italic text&lt;/em&gt;</code></pre>
+<pre><code>&lt;em&gt;This is italic text&lt;/em&gt;</code></pre>
 
 <p>This is code that we want to display: <code>.blue{color:blue}</code></p>
 <pre><code>&lt;pre&gt;&lt;code&gt;.blue{color:blue}&lt;/code&gt;&lt;/pre&gt;</code></pre>
@@ -117,6 +117,9 @@
 
 <p><a href="#" class="button white">This is a button set to white.</a></p>
 <pre><code>&lt;a href=&quot;#&quot; class=&quot;button white&quot;&gt;This is a button set to white.&lt;/a&gt;</code></pre>
+
+<p><a href="#" class="button blue">This is a button set to blue.</a></p>
+<pre><code>&lt;a href=&quot;#&quot; class=&quot;button blue&quot;&gt;This is a button set to blue.&lt;/a&gt;</code></pre>
 
 <p><a href="#" class="button blue-dark">This is a button set to dark blue.</a></p>
 <pre><code>&lt;a href=&quot;#&quot; class=&quot;button blue-dark&quot;&gt;This is a button set to dark blue.&lt;/a&gt;</code></pre>
@@ -242,6 +245,19 @@
 &lt;div class=&quot;box-1-3&quot;&gt;This is a one-third box.&lt;/div&gt;
 &lt;div class=&quot;box-2-3&quot;&gt;This is a two-thirds box.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
+
+<br />
+
+<h2>Additional Helper Classes</h2>
+<pre><code>.left{text-align:left}
+.center{text-align:center}
+.right{text-align:right}
+.float-left{float:left}
+.float-right{float:right}
+.clear{clear:both}
+.clear-left{clear:left}
+.clear-right{clear:right}
+.clear-float:after{display:table;content:"";clear:both}</code></pre>
 
 </article>
 
