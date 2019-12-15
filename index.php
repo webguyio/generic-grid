@@ -18,7 +18,7 @@
 
 <div id="wrapper" class="hfeed">
 
-<header id="header"> 
+<header id="header" role="banner"> 
 
 <h1 id="site-title"><a href="./">Generic CSS Grid</a></h1>
 
@@ -26,7 +26,7 @@
 
 <div id="container">
 
-<main id="content" class="hentry">
+<main id="content" class="hentry" role="main">
 
 <article class="entry-content">
 
