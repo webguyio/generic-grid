@@ -257,7 +257,7 @@
 .clear{clear:both}
 .clear-left{clear:left}
 .clear-right{clear:right}
-.clear-float:after{display:table;content:"";clear:both}</code></pre>
+.clear-float:after{display:table;content:'';clear:both}</code></pre>
 
 </article>
 
