@@ -1,6 +1,6 @@
-- This is a starter grid.
-- Use this tool how you like.
-- Attribution is NOT required.
+— This is a starter grid.
+— Use this tool how you like.
+— Attribution is NOT required.
 
 Hack this grid up how you like, starting with making it your own:
 
