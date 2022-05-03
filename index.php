@@ -11,6 +11,7 @@
 
 <link rel="canonical" href="https://<?php echo $_SERVER["HTTP_HOST"]; ?><?php echo parse_url( $_SERVER['REQUEST_URI'], PHP_URL_PATH ); ?>" />
 <link rel="stylesheet" type="text/css" href="grid.css" />
+<link rel="stylesheet" type="text/css" href="icons/icons.css" />
 
 </head>
 
@@ -112,8 +113,20 @@
 <p><img src="img.jpg" alt="This is an image." /></p>
 <pre><code>&lt;img src=&quot;img.jpg&quot; alt=&quot;This is an image.&quot; /&gt;</code></pre>
 
+<p><i class="icon icon-apple" title="This is an icon."></i></p>
+<pre><code>&lt;i class=&quot;icon icon-apple&quot; title=&quot;This is an icon.&quot;&gt;&lt;/i&gt;</code></pre>
+
+<p><span class="symbol" title="This is a symbol.">☮</span></p>
+<pre><code>&lt;span class=&quot;symbol&quot; title=&quot;This is a symbol.&quot;&gt;☮&lt;/span&gt;</code></pre>
+
 <p><a href="#" class="button">This is the default button.</a></p>
 <pre><code>&lt;a href=&quot;#&quot; class=&quot;button&quot;&gt;This is the default button.&lt;/a&gt;</code></pre>
+
+<p><a href="#" class="button round">This is a round button.</a></p>
+<pre><code>&lt;a href=&quot;#&quot; class=&quot;button round&quot;&gt;This is a round button.&lt;/a&gt;</code></pre>
+
+<p><a href="#" class="button circle">This is a circle button.</a></p>
+<pre><code>&lt;a href=&quot;#&quot; class=&quot;button circle&quot;&gt;This is a circle button.&lt;/a&gt;</code></pre>
 
 <p><a href="#" class="button white">This is a button set to white.</a></p>
 <pre><code>&lt;a href=&quot;#&quot; class=&quot;button white&quot;&gt;This is a button set to white.&lt;/a&gt;</code></pre>
@@ -248,6 +261,13 @@
 
 <br />
 
+<p>If your system/browser is set to prefer dark mode, this page should be black. Otherwise, it'll be white.</p>
+<br />
+<pre><code>@media(prefers-color-scheme:light){body{background:#fff}}
+@media(prefers-color-scheme:dark){body{background:#000}}</code></pre>
+
+<br />
+
 <h2>Additional Helper Classes</h2>
 <pre><code>.left{text-align:left}
 .center{text-align:center}
@@ -257,7 +277,12 @@
 .clear{clear:both}
 .clear-left{clear:left}
 .clear-right{clear:right}
-.clear-float:after{display:table;content:'';clear:both}</code></pre>
+.clear-float:after, .boxes:after{display:table;content:'';clear:both}
+.offset{padding-top:100px;margin-top:-100px}
+.spacer{display:inline-block;width:25px}
+.lighter{background-color:rgba(255,255,255,0.05)}
+.darker{background-color:rgba(0,0,0,0.05)}
+.overlay:before{position:fixed;top:0;left:0;width:100%;height:100%;content:'';background:rgba(0,0,0,0.5);z-index:0}</code></pre>
 
 </article>
 
