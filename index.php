@@ -4,14 +4,14 @@
 
 <head>
 
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
 
 <title>Generic CSS Grid | GenericTools</title>
 
-<link rel="canonical" href="https://<?php echo $_SERVER["HTTP_HOST"]; ?><?php echo parse_url( $_SERVER['REQUEST_URI'], PHP_URL_PATH ); ?>" />
-<link rel="stylesheet" type="text/css" href="grid.css" />
-<link rel="stylesheet" type="text/css" href="icons/icons.css" />
+<link rel="canonical" href="https://<?php echo $_SERVER["HTTP_HOST"]; ?><?php echo parse_url( $_SERVER['REQUEST_URI'], PHP_URL_PATH ); ?>">
+<link rel="stylesheet" href="grid.css">
+<link rel="stylesheet" href="icons/icons.css">
 
 </head>
 
@@ -19,7 +19,7 @@
 
 <div id="wrapper" class="hfeed">
 
-<header id="header" role="banner"> 
+<header id="header"> 
 
 <h1 id="site-title"><a href="./">Generic CSS Grid</a></h1>
 
@@ -27,7 +27,7 @@
 
 <div id="container">
 
-<main id="content" class="hentry" role="main">
+<main id="content" class="hentry">
 
 <article class="entry-content">
 
@@ -65,7 +65,7 @@
 <pre><code>&lt;pre&gt;&lt;code&gt;.blue{color:blue}&lt;/code&gt;&lt;/pre&gt;</code></pre>
 
 <p>This is the horizontal rule:</p>
-<hr />
+<hr>
 <pre><code>&lt;hr /&gt;</code></pre>
 
 <blockquote>This is a sentence wrapped in blockquote tags.</blockquote>
@@ -101,16 +101,16 @@
 &lt;li&gt;list.&lt;/li&gt;
 &lt;/ol&gt;</code></pre>
 
-<p><input type="text" value="This is a text input." size="25" /></p>
+<p><input type="text" value="This is a text input." size="25"></p>
 <pre><code>&lt;input type=&quot;text&quot; value=&quot;This is a text input.&quot; size=&quot;25&quot; /&gt;</code></pre>
 
 <p><textarea rows="5" cols="50">This is a textarea.</textarea></p>
 <pre><code>&lt;textarea rows=&quot;5&quot; cols=&quot;50&quot;&gt;This is a textarea.&lt;/textarea&gt;</code></pre>
 
-<p><input type="submit" value="This is a submit input." /></p>
+<p><input type="submit" value="This is a submit input."></p>
 <pre><code>&lt;input type=&quot;submit&quot; value=&quot;This is a submit input.&quot; /&gt;</code></pre>
 
-<p><img src="img.jpg" alt="This is an image." /></p>
+<p><img src="img.jpg" alt="This is an image."></p>
 <pre><code>&lt;img src=&quot;img.jpg&quot; alt=&quot;This is an image.&quot; /&gt;</code></pre>
 
 <p><i class="icon icon-apple" title="This is an icon."></i></p>
@@ -164,7 +164,7 @@
 <span class="note red">This is a warning note.</span>
 <pre><code>&lt;span class=&quot;note red&quot;&gt;This is a warning note.&lt;/span&gt;</code></pre>
 
-<br />
+<br>
 
 <div class="boxes">
 <div class="box">This is a single-column box.</div>
@@ -173,7 +173,7 @@
 &lt;div class=&quot;box&quot;&gt;This is a single-column box.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
-<br />
+<br>
 
 <div class="boxes">
 <div class="box-2">This is a two-column box.</div>
@@ -184,7 +184,7 @@
 &lt;div class=&quot;box-2&quot;&gt;This is a two-column box.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
-<br />
+<br>
 
 <div class="boxes">
 <div class="box-3">This is a three-column box.</div>
@@ -197,7 +197,7 @@
 &lt;div class=&quot;box-3&quot;&gt;This is a three-column box.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
-<br />
+<br>
 
 <div class="boxes">
 <div class="box-4">This is a four-column box.</div>
@@ -212,7 +212,7 @@
 &lt;div class=&quot;box-4&quot;&gt;This is a four-column box.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
-<br />
+<br>
 
 <div class="boxes">
 <div class="box-5">This is a five-column box.</div>
@@ -229,7 +229,7 @@
 &lt;div class=&quot;box-5&quot;&gt;This is a five-column box.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
-<br />
+<br>
 
 <div class="boxes">
 <div class="box-6">This is a six-column box.</div>
@@ -248,7 +248,7 @@
 &lt;div class=&quot;box-6&quot;&gt;This is a six-column box.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
-<br />
+<br>
 
 <div class="boxes">
 <div class="box-1-3">This is a one-thirds box.</div>
@@ -259,14 +259,14 @@
 &lt;div class=&quot;box-2-3&quot;&gt;This is a two-thirds box.&lt;/div&gt;
 &lt;/div&gt;</code></pre>
 
-<br />
+<br>
 
 <p>If your system/browser is set to prefer dark mode, this page should be black. Otherwise, it'll be white.</p>
-<br />
+<br>
 <pre><code>@media(prefers-color-scheme:light){body{background:#fff}}
 @media(prefers-color-scheme:dark){body{background:#000}}</code></pre>
 
-<br />
+<br>
 
 <h2>Additional Helper Classes</h2>
 <pre><code>.left{text-align:left}
